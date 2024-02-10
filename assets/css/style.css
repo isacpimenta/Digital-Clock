@@ -49,3 +49,24 @@ body {
 .relogio span.tempo{
   font-size: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  .relogio {
+    height: 130px;
+    width: 300px;
+  }
+  
+  .relogio div{
+    max-height: 100px;
+    max-width: 80px;
+  }
+  
+  .relogio span{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .relogio span.tempo{
+    font-size: 10px;
+  }
+}
